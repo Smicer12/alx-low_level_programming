@@ -1,6 +1,5 @@
 #include <stdio.h>
-/* main starts program execution*/
-int main(void)
+int main(void) /* begins proramm */
 {	/**
 	* puts function prints something to the screen.
 	**/
