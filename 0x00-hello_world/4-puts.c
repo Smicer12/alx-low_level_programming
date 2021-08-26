@@ -3,6 +3,6 @@ int main(void) /* begins proramm */
 {	/**
 	* puts function prints something to the screen.
 	**/
-	puts("\"programming is like building a multilingual puzzle");
+	puts("\"programming is like building a multilingual puzzle\n");
 		return (0);
 }
