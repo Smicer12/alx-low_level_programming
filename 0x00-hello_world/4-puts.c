@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* main starts program execution*/
 int main(void)
 {	/**
 	* puts function prints something to the screen.
