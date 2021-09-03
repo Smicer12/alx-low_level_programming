@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int mul(int a, int b)
-{	/* declarinf function */	
+{	/* declaring function */	
 	
-	result = a *b;
+	int result = a *b;
 	printf("%d", result);
 	return result;
 }

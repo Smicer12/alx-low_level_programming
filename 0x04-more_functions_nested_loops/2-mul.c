@@ -13,7 +13,10 @@ int main(void)
 	*calling function inside main function
 	*/
 
-	printf("%d\n", mul(98, 1024));
-	printf("%d\n", mul(-402, 4096));
+	x=mul(98, 1024);
+	y=mul(-402, 4096);
+
+	printf("%d\n", x);
+	printf("%d\n", y);
 	return (0);
 }
