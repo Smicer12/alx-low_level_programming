@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void)
+{
+	
+	char l='a';
+
+	while(l<='z')
+	{  putchar(l);
+           l++;
+	}
+
+
+	char u;
+	for(u='A'; u<='Z'; u++)
+	{
+	putchar(u);
+	}
+
+	putchar('\n');
+	
+	return(0);
+}
