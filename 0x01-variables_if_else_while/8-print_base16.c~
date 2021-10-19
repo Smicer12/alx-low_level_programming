@@ -9,7 +9,7 @@ int main(void)
 	n++;
 	}
 	
-	for(l='a'; l<='f'; l++)
+	for(l='a'; l<='e'; l++)
 	{ putchar(l);
 	}
 	
