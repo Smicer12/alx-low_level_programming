@@ -1,17 +1,24 @@
 #include <stdio.h>
 int main(void)
 {
-	int n;
+	int n, t;
 
 
-	for(n=0; n<90; n++)
+	for(n=0; n<=9; n++)
 	{
-	  putchar( n/10 + '0');
- 	  putchar( n%10 + '0');
-	  putchar(',');
-	  putchar(' ');
-	}
+		for(t=0; t<=9; t++)
+	  	{
+	  		if(n!=t && n<t)
+			{
 
+				putchar( n +'0');
+				putchar( t +'0');
+				putchar(',');
+				putchar(' ');
+			}
+           
+		}
+	}
 
 	putchar('\n');
 	return(0);
