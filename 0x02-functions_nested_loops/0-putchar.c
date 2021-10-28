@@ -1,6 +1,5 @@
-#include "main.h"
-#include "_putchar.c"
-
+#include <stdio.h>
+#include <unistd.h>
 
 int main(void)
 {
@@ -8,7 +7,7 @@ int main(void)
 char name[] = "_putchar";
 int i= 0;
 while(name[i] !='\0')
-{	_putchar(name[i]);
+{	putchar(name[i]);
 	i++;
 
 }
