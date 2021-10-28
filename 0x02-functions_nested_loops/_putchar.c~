@@ -1,7 +1,8 @@
+#imclude <stdio.h>
 int _putchar(char c)                                                                                                                          
 {                                                                                                                                             
         putchar (c);
-	c++;
+	
 
 	return(0);                                                                                                                          
 }     
