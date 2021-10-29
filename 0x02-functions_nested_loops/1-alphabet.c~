@@ -1,20 +1,23 @@
 #include <stdio.h>
-#include <>
+#include <unistd.h>   
 
 int main(void)
 {
-
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";                                                                                        
-        int i = 0;                                                                                                                            
+	void print_alphabet(void)
+	{
+		char letters[] = "abcdefghijklmnopqrstuvwxyz";                                                                                        
+        	int i = 0;                                                                                                                            
                                                                                                                                               
-        while(letters[i] !='\0')                                                                                                              
+        	while(letters[i] !='\0')                                                                                                              
                 {                                                                                                                             
                   putchar(letters[i]);                                                                                                        
                   i++;                                                                                                                        
                 }                                                                                                                             
                                                                                                                                               
-        putchar('\n'); 
- 
-    	return (0);
+        	putchar('\n'); 
+	}
 
+
+	print_alphabet(void);
+	return(0);
 }

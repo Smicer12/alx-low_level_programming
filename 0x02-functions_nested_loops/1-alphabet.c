@@ -1,20 +1,22 @@
 #include <stdio.h>
-#include <unistd.h>   
-
-int main(void)
-{
-
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";                                                                                        
-        int i = 0;                                                                                                                            
+#include <unistd.h>
+   
+void print_alphabet(void)                                                                                                             
+        {                                                                                                                                     
+                char letters[] = "abcdefghijklmnopqrstuvwxyz";                                                                                
+                int i = 0;                                                                                                                    
                                                                                                                                               
-        while(letters[i] !='\0')                                                                                                              
+                while(letters[i] !='\0')                                                                                                      
                 {                                                                                                                             
                   putchar(letters[i]);                                                                                                        
                   i++;                                                                                                                        
                 }                                                                                                                             
                                                                                                                                               
-        putchar('\n'); 
- 
-    	return (0);
+                putchar('\n');                                                                                                                
+        }
+              
+int main(void)
 
+{	print_alphabet();
+	return(0);
 }
