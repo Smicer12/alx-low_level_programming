@@ -9,7 +9,6 @@ int i= 0;
 while(name[i] !='\0')
 {	putchar(name[i]);
 	i++;
-
 }
 
 putchar('\n');
