@@ -1,4 +1,4 @@
-
+#include "main.h"
 void print_alphabet_x10(void)
 {
 
@@ -10,14 +10,14 @@ void print_alphabet_x10(void)
 	while(t<=9)
 	{
 		while(  alp != '\0')
-	 	{ _putchar(alp[i]);
+	 	{ putchar(alp[i]);
 		  i++;
 		}
 
 	  t++;
 	}
 	
-	_putchar('\n');
+	putchar('\n');
 	
 
 }
