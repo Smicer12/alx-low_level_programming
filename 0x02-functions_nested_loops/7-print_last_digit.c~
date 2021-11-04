@@ -2,7 +2,6 @@
 
 int print_last_digit(int f)
 {
-	long int n = f%10;
-	return _putchar(n + '0');
+	return _putchar( (f%10) + '0');
 		
 }
